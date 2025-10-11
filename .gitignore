@@ -1,4 +1,51 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+*.log
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local Gradle configuration
+gradle-app.setting
+
+# Gradle build cache
+.gradle-cache/
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
 ### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -8,7 +55,7 @@ out/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 bin/
@@ -25,5 +72,23 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### OS Files ###
 .DS_Store
+Thumbs.db
+
+### Logs & temp files ###
+*.log
+*.tmp
+*.bak
+
+### Kotlin/Java specific ###
+*.kotlin_metadata
+*.hprof
+*.orig
+
+### Optional JetBrains system folders ###
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/dictionaries
+.idea/**/libraries
